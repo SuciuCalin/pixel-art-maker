@@ -4,7 +4,7 @@ const inputHeight = $('#input_height');
 const inputWidth = $('#input_width');
 
 // When size is submitted by the user, call makeGrid()
-$('#sizePicker').submit(function() {
+$('#sizePicker').submit(function(event) {
   makeGrid();
   event.preventDefault();
 });
@@ -31,5 +31,5 @@ function makeGrid() {
   $('td').click(function() {
     $(this).css('background', inputColor.val());
   });
-  
+
 }
