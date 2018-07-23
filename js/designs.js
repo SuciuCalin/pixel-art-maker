@@ -32,4 +32,10 @@ function makeGrid() {
     $(this).css('background', inputColor.val());
   });
 
+  // Change the <td> backgroun color to white on right click
+  $('td').contextmenu(function() {
+    event.preventDefault();
+    $(this).css('background', 'white');
+  });
+
 }
