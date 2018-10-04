@@ -1,5 +1,5 @@
 # Pixel Art Maker
----
+
 ## Description
 A single-page web app that allows users to draw pixel art on a custom size canvas!
 
